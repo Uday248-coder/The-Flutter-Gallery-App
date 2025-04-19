@@ -11,9 +11,9 @@ import 'search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
-
+  
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
@@ -84,7 +84,8 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _takePicture,
-        child: Icon(Icons.camera_alt),
+        tooltip: 'Take Picture',
+        child: const Icon(Icons.camera_alt),
       ),
     );
   }
