@@ -1,0 +1,35 @@
+# pubspec.yaml
+name: gallery_app
+description: A Flutter gallery application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  photo_manager:
+#    version: latest_version
+#    path: "C:\Flutter\Project 1 --  Gallery App\version claude\gallery_app\packages\photo_manager"
+    path: packages\photo_manager
+  cached_network_image: ^3.2.3
+  path_provider: ^2.0.15
+  provider: ^6.0.5
+  permission_handler: ^10.4.0
+  image_picker: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+# dependency_overrides:
+  # photo_manager: 2.7.0
