@@ -12,3 +12,6 @@ Flutter is codebase that works as a universal app builder, Flutter based apps ca
 Apart from being platform-friendly, we can leverage the extensive libraries and quick help from its pre-existing codes.
 
 Every thing in an app is a Widget, yes whether be it the buttons on the screen, the grids we scroll past..........
+
+Now, Widgets are made using the Build methods. The Base Sketch/mesh that hold these widgets together is called a scafflod -- technical defination states that it combines all screens sharing same widgets, But the better analogy that i took was of layers, Understand scaffold as the long common green lego sheet, on which you build up by creating layer over layer on it..
+
